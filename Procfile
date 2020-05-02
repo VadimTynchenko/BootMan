@@ -1,1 +1,1 @@
-worker: sh target/classes/com/vadimtynchnenko/bootman/BooMan 
+worker: sh target/bin/BootMan
