@@ -1,6 +1,5 @@
 package com.vadimtynchenko.bootman;
 
-import org.apache.log4j.Logger;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
@@ -36,9 +35,9 @@ public class Bot extends TelegramLongPollingBot {
         sendMessage.setText(message);
         try {
             execute(sendMessage);
-            System.err.println("Bot activated");
+            System.out.println("Bot activated");
         } catch (TelegramApiException e) {
-            System.err.println(e.toString());
+            System.out.println(e.toString());
         }
     }
 
@@ -61,6 +60,4 @@ public class Bot extends TelegramLongPollingBot {
     public String getBotToken() {
         return "1133032134:AAECM0Zza6xhi3AkxAcADJUjUqhB4vIRr-A";
     }
-    
-    private static final Logger log = Logger.getLogger(Bot.class);
 }

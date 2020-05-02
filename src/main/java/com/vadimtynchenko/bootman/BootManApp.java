@@ -15,7 +15,7 @@ public class BootManApp {
         try {
             telegramBotsApi.registerBot(new Bot());
         } catch (TelegramApiRequestException e) {
-            System.err.println(e.toString());
+            System.out.println(e.toString());
         }
     }
 }
