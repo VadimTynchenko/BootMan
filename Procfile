@@ -1,1 +1,1 @@
-worker: sh target/BootMan-1.0-SNAPSHOT.jar
+worker: sh target/BootMan-1.0-SNAPSHOT
