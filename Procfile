@@ -1,1 +1,1 @@
-worker: sh target/bin/BootMan
+worker: sh target/BootMan-1.0-SNAPSHOT 
