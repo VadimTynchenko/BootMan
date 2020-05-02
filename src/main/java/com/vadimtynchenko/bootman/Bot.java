@@ -38,7 +38,7 @@ public class Bot extends TelegramLongPollingBot {
             execute(sendMessage);
             System.err.println("Bot activated");
         } catch (TelegramApiException e) {
-            System.err.println("Exception: ", e);
+            System.err.println(e.toString());
         }
     }
 
