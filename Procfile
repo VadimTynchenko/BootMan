@@ -1,1 +1,1 @@
-worker: sh target/BootMan-1.0-SNAPSHOT 
+worker: sh target/classes/com/vadimtynchnenko/bootman/BooMan 
